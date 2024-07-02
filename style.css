@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  overflow-x: hidden;
+  gap: 20px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+ span {
+  font-size: 120px;
+  font-weight: 700;
+  color: white;
+}
+
+.minus {
+  outline: none;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  border: 2px solid orange;
+  padding: 5px 35px;
+  transition: 100ms ease all;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.minus:active {
+  transition: 100ms ease all;
+  background: none;
+}
+
+.plus {
+  outline: none;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  border: 2px solid teal;
+  padding: 5px 35px;
+  transition: 100ms ease all;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.plus:active {
+  transition: 100ms ease all;
+  background: none;
+}
